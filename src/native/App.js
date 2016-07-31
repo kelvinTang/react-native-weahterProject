@@ -42,7 +42,7 @@ export default class App extends Component {
         <Image source={require('../../flowers.png')} resizeMode='cover' style={styles.backdrop} >
           <View style={styles.overlay}>
             <Text style={styles.mainText}>
-              Current weather for
+              城市
             </Text>
             <View style={styles.cityContainer}>
             <TextInput style={[styles.city, styles.mainText]}
