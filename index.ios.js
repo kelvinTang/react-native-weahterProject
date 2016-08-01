@@ -14,6 +14,6 @@ import Button from "./src/native/Button"
 import PanDemo from "./src/native/PanDemo";
 import SimpleList from "./src/native/SimpleList";
 import BookList from "./src/native/BookList"
+import crossplatform from "./src/native/crossplatform"
 
-
-AppRegistry.registerComponent('WeatherProject', () => BookList);
+AppRegistry.registerComponent('WeatherProject', () => crossplatform);
