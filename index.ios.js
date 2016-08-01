@@ -15,5 +15,6 @@ import PanDemo from "./src/native/PanDemo";
 import SimpleList from "./src/native/SimpleList";
 import BookList from "./src/native/BookList"
 import crossplatform from "./src/native/crossplatform"
+import Mondrian from "./src/Mondrian"
 
-AppRegistry.registerComponent('WeatherProject', () => crossplatform);
+AppRegistry.registerComponent('WeatherProject', () => Mondrian);
