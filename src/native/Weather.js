@@ -5,15 +5,12 @@ import Forecast from "./Forecast";
 const API_KEY = 'bbeb34ebf60ad50f7893e7440a1e2b0b';
 
 export default class App extends Component {
-  componentWillMount() {
-    this.setState({
+  constructor(props) {
+    super(props);
+    this.state = {
       city: '',
-      forecast: {
-        main: 'Clouds',
-        description: 'few clouds',
-        temp: 22.7
-      }
-    });
+      forecast: null
+    };
   }
 
   handleTextChange(e) {
